@@ -124,6 +124,7 @@ int main()
 		printf("\t1 - Adicionar usuário\n");
 		printf("\t2 - Consultar usuário\n");
 		printf("\t3 - Remover usuário\n");
+		printf("\t4 - Sair do sistema\n");
 		printf("\nOpção: ");
 		
 		//pergunta
@@ -144,6 +145,11 @@ int main()
 			
 			case 3:
 			remover();
+			break;
+			
+			case 4:
+			printf("Tchau!\n");
+			return 0;
 			break;
 			
 			default:
