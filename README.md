@@ -1,3 +1,2 @@
-# EBAC
-
-Novo repositório para o curso de TI da EBAC!
+# curso_ebac_frontend
+app de cartório escrito em C
